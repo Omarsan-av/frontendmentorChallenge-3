@@ -1,0 +1,49 @@
+body 
+{
+   background-color: #0c122c;
+   background-image: url('https://omarsav.com/pictures/frontmentor/bg-desktop.png');
+   background-repeat: no-repeat;
+   background-position: bottom;
+   background-size: contain;
+   flex-direction: row;
+   padding-bottom: 10vh;
+}
+
+section:first-child 
+{
+   width: 26%;
+   margin-right: 25px;
+}
+
+section:nth-of-type(2)
+{
+   width: 40%;
+   margin-top: 4%;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 17px 0;
+}
+
+.data 
+{
+   position: absolute;
+   right: 8%;
+   top: -35%;
+   height: 40%;
+   width: 32%;
+   border-bottom-right-radius: 0;
+}
+
+.triangle 
+{
+   clip-path: polygon(100% 100%, 28% 0, 100% 0);
+   width: 30px;
+   height: 20px;
+   background-color: white;
+   position: absolute;
+   box-sizing: border-box;
+   bottom: -19px;
+   right: -1px;
+}

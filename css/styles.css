@@ -13,6 +13,7 @@ body
 {
    width: 100%;
    height: 100vh;
+   font-family: 'Raleway', sans-serif;
    font-size: 16rem;
    box-sizing: border-box;
    background-image: url('https://omarsav.com/pictures/frontmentor/bg-mobile.png');
@@ -27,8 +28,8 @@ section:first-child
    height: 35vh;
    width: 88%;
    background-color: #1d2c67;
-   border-radius: 10px;
-   border-top-right-radius: 85px;
+   border-radius: 12px;
+   border-top-right-radius: 110px;
    border: none;
    display: flex;
    justify-content: space-evenly;
@@ -47,7 +48,7 @@ section:first-child
 {
    width: 50px;
    height: 50px;
-   background-color: rgb(12, 18, 44);
+   background-color: #0c122c;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -60,8 +61,110 @@ section:first-child
    height: 43px;
 }
 
+section:nth-of-type(2)
+{
+   width: 88%;
+   height: 22vh;
+   padding-top: 30px;
+   border-radius: 12px;
+   margin-top: 20px;
+   background-color: #1d2c67;
+   color: #dddbff;
+}
 
+section > p
+{
+   font-size: 15.4rem;
+   padding-left: 40px;
+}
 
+.load 
+{
+   width: 85%;
+   height: 20px;
+   background-color: #131b3d;
+   margin: 0 auto;
+   border-radius: 20px;
+   margin-top: 15px;
+}
+
+.start-end 
+{
+   display: flex;
+   justify-content: space-between;
+   width: 85%;
+   margin: 0 auto;
+   margin-top: 12px;
+   font-size: 15rem;
+   font-weight: 700;
+}
+
+.data 
+{
+   background-color: white;
+   width: 60%;
+   height: 55%;
+   margin: auto;
+   margin-top: 12px;
+   border-radius: 12px;
+   color: black;
+   font-size: 40rem;
+   font-weight: 700;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+section p span
+{
+   font-weight: 700;
+}
+
+section p span:nth-of-type(2)
+{
+   font-size: 14rem;
+}
+
+section p span:nth-of-type(3)
+{
+   position: relative;
+   top: 2%;
+}
+
+.start-end p span 
+{
+   font-size: 14rem;
+}
+
+.data span 
+{
+   font-size: 15rem;
+   color: #848794;
+   display: flex;
+   margin-left: 12px;
+   letter-spacing: 1.5rem;
+}
+
+.load > div:first-child
+{
+   width: 75%;
+   height: inherit;
+   background: linear-gradient(to right,#ffa399 35%,#ff4d97 120%);
+   border-radius: inherit;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   padding-right: 2px;
+   box-sizing: border-box;
+}
+
+.circle 
+{
+   width: 15px;
+   height: 15px;
+   background-color: white;
+   border-radius: 50%;
+}
 
 .attribution a { color: hsl(228, 45%, 44%); }
 .attribution { font-size: 11px; text-align: center; }
